@@ -9,6 +9,6 @@
     };
 };
 
-&default_layout  {
+&josefadamcik_sofle_layout  {
     kscan = <&kscan_dongle>;
 };
