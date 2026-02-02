@@ -40,27 +40,9 @@ endchoice
 
 endif
 
-
-#
-# Split Halves (FORCED PERIPHERAL ROLE)  ← ★ CRITICAL FIX
-#
-if SHIELD_SOFLE_LEFT || SHIELD_SOFLE_LEFT_PERIPHERAL || SHIELD_SOFLE_RIGHT
-
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y
-
-endif
-
-
-#
-# Common Split + BLE Enable
-#
 if SHIELD_CENTRAL_DONGLE || SHIELD_SOFLE_LEFT || SHIELD_SOFLE_RIGHT || SHIELD_SOFLE_LEFT_PERIPHERAL
 
 config ZMK_SPLIT
-    default y
-
-config ZMK_BLE
     default y
 
 endif
