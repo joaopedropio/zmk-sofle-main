@@ -4,6 +4,7 @@ This custom **ZMK Sofle** configuration is a high-performance, dongle-based spli
 
 # 🐍 ZMK Sofle "Snake" Edition
 
+
 A highly customized ZMK firmware for the Sofle keyboard, utilizing a **dedicated dongle** (central role) and two wireless peripherals (left/right halves).
 
 ## ✨ Key Features
