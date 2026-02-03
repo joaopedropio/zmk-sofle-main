@@ -5,9 +5,6 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: joaopedropio
-      url-base: https://github.com/joaopedropio
-     - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -16,8 +13,5 @@ manifest:
     - name: snake-module
       remote: joaopedropio
       revision: zephyr-4.1
-    - name: mario-peripheral-animation   #new entry
-      remote: gpeye                       #new entry
-      revision: main                      #new entry
   self:
     path: config
